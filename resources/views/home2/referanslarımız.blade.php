@@ -190,12 +190,6 @@
                 <p style="margin-top: 7px;">Ekol</p>
             </div>
 
-            <div class="swiper-slide_v3 col-3">
-                <div class="slider_v3-box"
-                     style="background-image:url('{{asset('assets')}}/img/logo/berrmak.jpeg');">
-                </div>
-                <p style="margin-top: 7px;">Berrmak</p>
-            </div>
 
             <div class="swiper-slide_v3 col-3">
                 <div class="slider_v3-box"

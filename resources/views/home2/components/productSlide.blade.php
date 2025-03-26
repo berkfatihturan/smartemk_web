@@ -52,7 +52,7 @@
         <div class="col-12 col-lg-4">
             <div class="product-box">
                 <video autoplay muted paused loop class="backvideo" style="object-position: bottom left;">
-                    <source src="{{asset('assets')}}/video/ıtohdenkisort.mp4" type="video/mp4">
+                    <source src="{{asset('assets')}}/video/itohsortting.mp4" type="video/mp4">
                 </video>
                 <div class="background-box">
                 </div>

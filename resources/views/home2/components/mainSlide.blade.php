@@ -20,7 +20,7 @@
                     <h4 style="font-size: 13px">24VDC POWER MOLLER SOLUTION </h4>
                 </div>
                 <div style="margin-right: 5%;">
-                    <img src="{{asset('assets')}}/img/itoh.png">
+                    <img style="width: 170px" src="{{asset('assets')}}/img/itoh.png">
                 </div>
             </div>
         </div>
