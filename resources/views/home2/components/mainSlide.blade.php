@@ -14,13 +14,13 @@
                     Türkiye Distribütörü</h3>
             </div>
             <div
-                style="z-index: 999; position: relative; display: flex;width: 100%; justify-content: flex-end; height: 65px; margin-bottom: 50px">
+                style="z-index: 999; position: relative; display: flex;width: 100%; justify-content: flex-end; height:50px; margin-bottom: 50px">
 
                 <div style="width: 80px; text-align: right; margin-right: 10px">
-                    <h4 style="font-size: 13px">24VDC POWER MOLLER SOLUTION </h4>
+                    <h4 style="font-size: 12px">24VDC POWER MOLLER SOLUTION </h4>
                 </div>
                 <div style="margin-right: 5%;">
-                    <img style="width: 170px" src="{{asset('assets')}}/img/itoh.png">
+                    <img style="width: 120px" src="{{asset('assets')}}/img/itoh.png">
                 </div>
             </div>
         </div>

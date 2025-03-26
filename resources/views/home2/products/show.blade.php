@@ -17,19 +17,27 @@
         .btn-info {
             background: {{\App\Models\Brands::where('id',$productData->brand_id)->first()->main_color}}
 
-
-
-
-
         }
 
         .btn-info:hover {
             background: {{\App\Models\Brands::where('id',$productData->brand_id)->first()->second_color}}
 
+        }
 
+        .SingleProductsIcons img {
+            width: 50px;
+            height: 50px;
+        }
 
+        .SingleProductsIcons .flex{
+            justify-content: space-between !important;
+            width: fit-content;
+        }
 
-
+        .SingleProductsIcons div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
 
 
@@ -139,7 +147,7 @@
                     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                         <div
                             class="SingleProductsIcons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
-                            <div>
+                            <div >
                                 <img alt="Lego block icon" class="mx-auto mb-4"
                                      src="https://www.itoh-denki.com/wp-content/uploads/2021/04/png_advantages-lego2x-80x80.png"/>
                                 <h3 class="text-lg font-semibold">
@@ -150,7 +158,7 @@
        <span class="text-yellow-500 mr-2">
         ▶
        </span>
-                                        Konveyör içerisine kolay entegrasyon
+                                        Konveyör hatlarınıza kolay entegrasyon
                                     </li>
                                     <li class="flex items-center justify-center">
        <span class="text-yellow-500 mr-2">
@@ -177,7 +185,7 @@
        <span class="text-yellow-500 mr-2">
         ▶
        </span>
-                                        Neredeyse bakım gerektirmez
+                                        Kolay bakım
                                     </li>
                                     <li class="flex items-center justify-center">
        <span class="text-yellow-500 mr-2">
@@ -315,8 +323,7 @@
                                 <img alt="Safety helmet and shield icon" class="mx-auto mb-4"
                                      src="https://www.itoh-denki.com/wp-content/uploads/2021/07/picto-10-80x80-80x80.png"/>
                                 <p class="text-lg font-semibold text-gray-900">
-                                    İs Güvenligine Uygun:
-                                    Yaralanma Riski Yok
+                                    İş Güvenliğine Uygun: Yaralanma Riski Bulunmaz
                                 </p>
                             </div>
                         </div>

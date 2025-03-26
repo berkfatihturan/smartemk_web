@@ -1,7 +1,7 @@
 
 <div class="header">
     <div class="header-container">
-        <a href="{{route('home_index')}}"><img id="logo" style="width: 120px" src="{{\Illuminate\Support\Facades\Storage::url($settingDataFromLayout->logo)}}"></a>
+        <a href="{{route('home_index')}}"><img id="logo" style="width: 90px" src="{{\Illuminate\Support\Facades\Storage::url($settingDataFromLayout->logo)}}"></a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; padding:0; background:white">
             <div class="container-fluid" style="background:white">
 

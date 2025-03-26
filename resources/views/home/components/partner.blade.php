@@ -18,7 +18,7 @@
                              style="">
                             <h3
                                 style="font-size: 28px; font-weight:800; text-transform: uppercase; margin-bottom:5px; color: white">{{$brand->name}}</h3>
-                            <p style="font-size:16px; color:#d8d9dd; margin-bottom:10px">{{$brand->description}}</p>
+                            <p style="font-size:16px; color:#d8d9dd; margin-bottom:10px; text-align: justify">{{$brand->description}}</p>
                             <a href="{{route('home_brands_index',['id'=>$brand->id])}}"
                                 class="btn-more_white btn-itohdenki" style="background-color: {{$brand->main_color}}">Daha
                                 Fazla Bilgi</a>

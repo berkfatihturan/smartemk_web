@@ -212,7 +212,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="product-box">
                         <video autoplay muted paused loop class="backvideo" style="object-position: bottom left;">
-                            <source src="{{asset('assets')}}/video/ıtohdenkisort.mp4" type="video/mp4">
+                            <source src="{{asset('assets')}}/video/itohsortting.mp4" type="video/mp4">
                         </video>
                         <div class="background-box">
                         </div>
@@ -221,7 +221,11 @@
                             <div class="title">RULOLU
                                 <rt>MOTORLAR</rt>
                             </div>
-                            <div class="keys"><rt>24VDC</rt> ile <rt>1000</rt>  kg’a KADAR TAŞIMA KAPASİTESİ
+                            <div class="keys">
+                                <rt>24VDC</rt>
+                                ile
+                                <rt>1000</rt>
+                                kg’a KADAR TAŞIMA KAPASİTESİ
                             </div>
                         </div>
 
@@ -254,12 +258,19 @@
                     AI Destekli Robotlarımız
                 </h1>
                 <p class="text-center mb-12" style="color: white">
-                    Cobot'larımızı endüstri standardı robotik kollardan ayıran şey "AI Vision" teknolojimizdir. İşbirlikçi robotlarımız, çevrelerini ve birlikte çalıştıkları insanları algılayabildikleri için üretim verimini artırır. Cobot'lara görmeleri için "gözler" vererek, performanslarında dünya kadar fark yaratır. AI Cobot'lar kaliteyi artırabilir, esnekliği iyileştirebilir ve üretiminizi geleceğe hazırlayabilir.
+                    AI (yapay zeka) Cobot, görüntü işleme ve cobot teknolojilerini kusursuz bir şekilde bir araya
+                    getiren işbirlikçi robotlardır. Bu entegrasyon,
+                    'beyin' , 'el' ve 'kol' işlevlerini etkili bir şekilde
+                    birleştirerek cobot'un görsel görevleri yerine getirmesine ve tıpkı bir insan gibi eylemler
+                    gerçekleştirmesine olanak tanır. Süreçlerin otomasyonlaştırılması yalnızca kaynak ve zaman
+                    tasarrufu sağlamakla kalmaz, aynı zamanda insan-robot iş birliğini teşvik ederek genel üretim
+                    verimliliğini artırır.
                 </p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     @php  $productList = \App\Models\Products::where('brand_id',4)->get(); @endphp
                     @foreach($productList as $product)
-                        <a href="{{route('home_products_show',['id' => $product->id])}}"  class="bg-gray-800 p-4 rounded-lg text-center">
+                        <a href="{{route('home_products_show',['id' => $product->id])}}"
+                           class="bg-gray-800 p-4 rounded-lg text-center">
                             <img alt="TM5S robot arm" class="mx-auto mb-4" height="200"
                                  src="{{\Illuminate\Support\Facades\Storage::url($product->image)}}"
                                  width="200"/>

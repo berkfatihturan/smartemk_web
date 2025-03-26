@@ -40,14 +40,14 @@
                         <h2 class="text-xl font-semibold mb-4">
                             Kusursuz ve Hizli Sorter Sistemleri için Yüksek Performansli Modül
                         </h2>
-                        <p class="mb-4" style="color: black; text-align: justify;   ">
-                            Itoh Denki transfer modülleri serisi, konveyör hatlarinizda siniflandirma ve yönlendirme
-                            için esnek, uygun maliyetli çözümler sunar. Özel olarak 24Vdc Motorlu tahrik makaralari
-                            (MDR) ve akilli sürücülerle desteklenen yön degistiricilerimiz, minimum enerji tüketimi ile
-                            maksimum performansi sunar. Kompakt kaset tasarimi sayesinde, yeni veya mevcut konveyör
-                            hattiniza kolay entegrasyon saglar. Çesitli ürünleri, sorunsuz ve hizli bir sekilde
-                            yönlendirme kapasitesiyle, birçok uygulama ve sektörde (dagitim merkezleri, paket ve posta,
-                            imalat...) kullanilabilir.
+                        <p class="mb-4" style="color: black; text-align: justify; font-weight: 500  ">
+                            Itoh Denki transfer modülleri serisi, konveyör hatlarınızda sınıflandırma ve yönlendirme
+                            için esnek ve uygun maliyetli çözümler sunar. Özel olarak 24V DC motorlu tahrik makaraları
+                            (MDR) ve akıllı sürücülerle desteklenen yön değiştiricilerimiz, minimum enerji tüketimiyle
+                            maksimum performans sağlar. Kompakt kaset tasarımı sayesinde yeni veya mevcut konveyör
+                            hattınıza kolay entegrasyon imkânı sunar. Çeşitli ürünleri sorunsuz ve hızlı bir şekilde
+                            yönlendirme kapasitesiyle, birçok uygulama ve sektörde (dağıtım merkezleri, paket ve posta,
+                            imalat vb.) kullanılabilir.
                         </p>
                     </div>
                     <div class="col-12 col-lg-4" style=" display: flex;align-items: center;justify-content: center;">
@@ -57,7 +57,8 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap justify-center md:justify-start space-x-4">
-                    <a href="{{route('home_contactus')}}" class="bg-yellow-500 text-white font-bold py-2 px-4 rounded-full hover:bg-yellow-600">
+                    <a href="{{route('home_contactus')}}"
+                       class="bg-yellow-500 text-white font-bold py-2 px-4 rounded-full hover:bg-yellow-600">
                         Detaylı Bilgi İçin İletişime Gecin
                     </a>
                     <!--
@@ -151,8 +152,7 @@
                         <img alt="Safety helmet and shield icon" class="mx-auto mb-4"
                              src="https://www.itoh-denki.com/wp-content/uploads/2021/07/picto-10-80x80-80x80.png"/>
                         <p class="text-lg font-semibold text-gray-900">
-                            İs Güvenligine Uygun:
-                            Yaralanma Riski Yok
+                            İş Güvenliğine Uygun: Yaralanma Riski Yoktur
                         </p>
                     </div>
                 </div>
@@ -186,7 +186,13 @@
                                     </div>
                                     <div class="down-content">
                                         <h4>{{$product->name}}</h4>
-                                        <span>@if($product->type_id == 1) MDR @elseif($product->type_id == 2) Kontrol Kartı @elseif($product->type_id == 3) Transfer Modülü @endif</span>
+                                        <span>@if($product->type_id == 1)
+                                                MDR
+                                            @elseif($product->type_id == 2)
+                                                Kontrol Kartı
+                                            @elseif($product->type_id == 3)
+                                                Transfer Modülü
+                                            @endif</span>
                                     </div>
                                 </div>
                             </a>

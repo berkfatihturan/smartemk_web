@@ -35,7 +35,7 @@
     </div>
 
     <div class="container" style="margin-top: 50px">
-    <div id="content" style="display: inline-block">
+    <div id="content"  spellcheck="false" style="display: inline-block">
        @php $page = \App\Models\Pages::find(1); @endphp
         {!! $page->content !!}
     </div>

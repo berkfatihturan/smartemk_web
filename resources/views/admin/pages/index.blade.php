@@ -16,7 +16,7 @@
             <section class="content">
 
                 @php $page = \App\Models\Pages::find(1); @endphp
-            <textarea name="content" id="editor">
+            <textarea name="content" id="editor" spellcheck="false">
                 {{$page->content}}
             </textarea>
 
@@ -181,7 +181,11 @@
                 'PasteFromOfficeEnhanced',
                 'CaseChange'
             ]
-        });
+        }).then(editor => {
+            editor.editing.view.change(writer => {
+                writer.setAttribute('spellcheck', 'false', editor.editing.view.document.getRoot());
+            });
+        });;
     </script>
 
 @endsection

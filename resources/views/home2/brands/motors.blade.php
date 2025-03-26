@@ -14,6 +14,17 @@
             height: 50px;
         }
 
+        .SingleProductsIcons .flex{
+            justify-content: space-between !important;
+            width: fit-content;
+        }
+
+        .SingleProductsIcons div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
 
     </style>
 @endsection
@@ -38,34 +49,39 @@
                             Rulolu Motorlar
                         </h1>
                         <h2 class="text-xl font-semibold mb-4">
-                            1 TON Kadar 24Vdc ile Taşıma - Akıllı Konveyör Sistemleri için Güvenilir ve Verimli Çözüm
+                            1 TON Kadar 24Vdc ile Taşıma Kapasitesi - Akıllı Konveyör Sistemleri için Güvenilir ve
+                            Verimli Çözüm
                         </h2>
                         <div style="color: black !important; text-align: justify; margin-bottom: 15px">
                             <p style="color: grey; margin-bottom: 10px;">
-                                ITOH DENKI’nin MDR (Motorized Drive Roller) motorları, modern konveyör sistemlerinin
+                                ITOH DENKI’nin Rulolu motorları (MDR), modern konveyör sistemlerinin
                                 ihtiyaç
                                 duyduğu esneklik, güvenlik ve enerji verimliliğini bir araya getirir. Yüksek kalite
                                 standartlarında üretilen bu motorlar, özellikle lojistik, otomotiv, e-ticaret ve üretim
                                 hatlarında maksimum performans sağlar.
                             </p>
                             <p style="color: grey ; margin-bottom: 10px;">
-                                <strong style="color: black">Esnek ve Modüler Yapı: </strong> Konveyör hatlarınıza kolayca entegre edilebilen
+                                <strong style="color: black">Esnek ve Modüler Yapı: </strong> Konveyör hatlarınıza
+                                kolayca entegre edilebilen
                                 modüler tasarımı sayesinde, özelleştirilmiş
                                 ölçülerde sistem kurulumu mümkün olur. Bu esneklik, değişen ihtiyaçlara hızlıca uyum
                                 sağlar.
                             </p>
                             <p style="color: grey ; margin-bottom: 10px;">
-                                <strong style="color: black">Alan Tasarrufu: </strong>Kompakt yapısıyla dar alanlara bile rahatlıkla monte
+                                <strong style="color: black">Alan Tasarrufu: </strong>Kompakt yapısıyla dar alanlara
+                                bile rahatlıkla monte
                                 edilebilir. Konveyör sisteminize
                                 sorunsuz uyum sağlayarak yerden tasarruf eder.
                             </p>
                             <p style="color: grey ; margin-bottom: 10px;">
-                                <strong style="color: black">Emniyet: </strong> Sadece 24VDC düşük gerilimle çalıştığı için yüksek güvenlik
+                                <strong style="color: black">Emniyet: </strong> Sadece 24VDC düşük gerilimle çalıştığı
+                                için yüksek güvenlik
                                 sunar. Sessiz ve ergonomik
                                 çalışmasıyla kullanıcı dostudur; iş sağlığı ve güvenliği açısından avantajlıdır.
                             </p>
                             <p style="color: grey; font-weight: 500">
-                                <strong style="color: black">Çevre Dostu: </strong>Düşük enerji tüketimiyle çevreye duyarlıdır. Temiz çalışma
+                                <strong style="color: black">Çevre Dostu: </strong>Düşük enerji tüketimiyle çevreye
+                                duyarlıdır. Temiz çalışma
                                 yapısı ve geri dönüştürülebilir
                                 malzemeleri sayesinde sürdürülebilirlik hedeflerini destekler.
                             </p>
@@ -94,7 +110,7 @@
             <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <div
                     class="SingleProductsIcons grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
-                    <div>
+                    <div >
                         <img alt="Lego block icon" class="mx-auto mb-4"
                              src="https://www.itoh-denki.com/wp-content/uploads/2021/04/png_advantages-lego2x-80x80.png"/>
                         <h3 class="text-lg font-semibold">
@@ -105,7 +121,7 @@
        <span class="text-yellow-500 mr-2">
         ▶
        </span>
-                                Konveyör içerisine kolay entegrasyon
+                                Konveyör hatlarınıza kolay entegrasyon
                             </li>
                             <li class="flex items-center justify-center">
        <span class="text-yellow-500 mr-2">
@@ -132,7 +148,7 @@
        <span class="text-yellow-500 mr-2">
         ▶
        </span>
-                                Neredeyse bakım gerektirmez
+                                Kolay bakım
                             </li>
                             <li class="flex items-center justify-center">
        <span class="text-yellow-500 mr-2">
