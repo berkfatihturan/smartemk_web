@@ -1,0 +1,26 @@
+.filter_icon {
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    fill: #6C757D;
+    cursor: pointer;
+    padding: 1px;
+    transition: all .3s;
+}
+
+.filter_icon:hover{
+    border: 2px solid #6C757D;
+    border-radius: 3px;
+}
+
+.filter_box {
+    position: fixed;
+    padding: 10px;
+    z-index: 99;
+    max-height: 300px;
+    overflow: auto;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+

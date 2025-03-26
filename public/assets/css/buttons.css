@@ -1,0 +1,69 @@
+/*download btn*/
+.download-btn {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    animation: 2s slide-right-box;
+}
+
+.download-btn span {
+    margin-left: 10px;
+    position: relative;
+    opacity: 0;
+    display: none;
+    animation: 2s slide-right;
+}
+
+.download-btn:hover {
+    animation: 2s slide-left-box;
+}
+
+.download-btn:hover span {
+    opacity: 1;
+    display: inline-block;
+    animation: 2s slide-left;
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        display: none;
+        left: 100px;
+    }
+    to {
+        opacity: 1;
+        display: inline-block;
+        left: 0;
+    }
+}
+
+@keyframes slide-left-box {
+    from {
+        width: 32px;
+    }
+    to {
+        width: 100px;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 1;
+        display: inline-block;
+        left: 0;
+    }
+    to {
+        opacity: 0;
+        display: none;
+        left: 100px;
+    }
+}
+
+@keyframes slide-right-box {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 32px;
+    }
+}

@@ -1,0 +1,32 @@
+.content-wrapper {
+    margin-left: 0 !important;
+}
+
+.content-header {
+    display: none;
+}
+
+.main-sidebar {
+    display: none;
+}
+
+body {
+    font-size: .8rem !important;
+}
+.table td {
+    padding: 0.3rem .5rem;
+}
+.table thead th {
+    vertical-align: baseline;
+}
+.filter_icon {
+    height: 15px;
+}
+.btn-block {
+    padding: 3px 9px;
+}
+td a svg{
+    height: 13px !important;
+    bottom: 2px !important;
+    right: -1px !important;
+}

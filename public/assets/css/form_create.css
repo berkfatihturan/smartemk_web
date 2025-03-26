@@ -1,0 +1,50 @@
+.container-fluid {
+    position: relative;
+    bottom: 3px;
+}
+
+.container-fluid h1,
+.form-page-content {
+    border-left: 6px solid #AD2229;
+    padding-left: 10px;
+}
+
+.form-page-content {
+    margin-left: 7px;
+    min-width: 100%;
+}
+
+/**/
+
+.nice-form-group .form-box {
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+
+.form-box .list-button {
+    height: 100%;
+    background: #f9fafb;
+    margin-left: 10px;
+    border: 1px solid #c0c4c9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-box .list-button svg {
+    padding: 8px;
+    height: 100%;
+    fill: #20242f;
+}
+
+.form-box .list-button:hover {
+    background: rgba(31, 134, 145, 0.91);
+}
+
+.form-box .list-button:hover svg {
+    fill: white;
+}
+
+.form-box {
+    margin-bottom: 0.5rem;
+}

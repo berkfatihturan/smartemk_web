@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .table-container {
+        width: 100% !important;
+        padding: 0 10px;
+    }
+}
+
+.table-item {
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.card-body.p-0 .table tbody > tr > td:last-of-type {
+    padding-right: 15px !important;
+}
+
+.table td {
+    padding: .75rem .5rem;
+}
+
+#add_stock_button {
+    display: inline;
+    position: relative;
+}
+
+#add_stock_box {
+    display: none;
+    position: absolute;
+    top: -130px;
+    left: 0;
+    width: 300px;
+}
+
+#add_stock_box {
+
+}
+
+#add_stock_box .card {
+    background: rgba(247, 249, 250, 1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#add_stock_box .card:hover {
+    background: rgba(237, 239, 240, 1);
+}
+
+#add_stock_box .card a {
+    color: black;
+}
+
+.export_to_excel{
+    z-index: 1000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

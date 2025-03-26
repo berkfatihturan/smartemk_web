@@ -1,0 +1,26 @@
+#contact:before, #contact:after{
+    display: none;
+}
+.blog-mini-img{
+    object-fit: fill;
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+}
+
+
+.post-item .right-content {
+     padding-top: 0px !important;
+}
+
+.post-item h4:hover{
+    color: red;
+}
+
+.blog-post h4:hover{
+    color: red;
+}
+
+#services .thumb{
+    font-size: 16px;
+}
