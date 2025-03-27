@@ -53,33 +53,33 @@
                             Verimli Çözüm
                         </h2>
                         <div style="color: black !important; text-align: justify; margin-bottom: 15px">
-                            <p style="color: grey; margin-bottom: 10px;">
+                            <p style=margin-bottom: 10px;">
                                 ITOH DENKI’nin Rulolu motorları (MDR), modern konveyör sistemlerinin
                                 ihtiyaç
                                 duyduğu esneklik, güvenlik ve enerji verimliliğini bir araya getirir. Yüksek kalite
                                 standartlarında üretilen bu motorlar, özellikle lojistik, otomotiv, e-ticaret ve üretim
                                 hatlarında maksimum performans sağlar.
                             </p>
-                            <p style="color: grey ; margin-bottom: 10px;">
+                            <p style=" margin-bottom: 10px;">
                                 <strong style="color: black">Esnek ve Modüler Yapı: </strong> Konveyör hatlarınıza
                                 kolayca entegre edilebilen
                                 modüler tasarımı sayesinde, özelleştirilmiş
                                 ölçülerde sistem kurulumu mümkün olur. Bu esneklik, değişen ihtiyaçlara hızlıca uyum
                                 sağlar.
                             </p>
-                            <p style="color: grey ; margin-bottom: 10px;">
+                            <p style=" margin-bottom: 10px;">
                                 <strong style="color: black">Alan Tasarrufu: </strong>Kompakt yapısıyla dar alanlara
                                 bile rahatlıkla monte
                                 edilebilir. Konveyör sisteminize
                                 sorunsuz uyum sağlayarak yerden tasarruf eder.
                             </p>
-                            <p style="color: grey ; margin-bottom: 10px;">
+                            <p style=" margin-bottom: 10px;">
                                 <strong style="color: black">Emniyet: </strong> Sadece 24VDC düşük gerilimle çalıştığı
                                 için yüksek güvenlik
                                 sunar. Sessiz ve ergonomik
                                 çalışmasıyla kullanıcı dostudur; iş sağlığı ve güvenliği açısından avantajlıdır.
                             </p>
-                            <p style="color: grey; font-weight: 500">
+                            <p style=" font-weight: 500">
                                 <strong style="color: black">Çevre Dostu: </strong>Düşük enerji tüketimiyle çevreye
                                 duyarlıdır. Temiz çalışma
                                 yapısı ve geri dönüştürülebilir
