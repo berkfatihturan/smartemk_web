@@ -113,6 +113,7 @@
                                             <fieldset>
                                                 <input type="name" name="name" id="name" placeholder="Name"
                                                        autocomplete="on" required>
+
                                             </fieldset>
                                             <fieldset>
                                                 <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*"
