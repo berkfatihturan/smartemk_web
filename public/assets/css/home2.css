@@ -1,3 +1,6 @@
+:root {
+    --bg-angle: 110deg;
+}
 
 html,
 body {
@@ -168,7 +171,7 @@ footer .logo {
     background-repeat: no-repeat;
 
     background-position: center center;
-    background-size: 100% 100% ;
+    background-size: 100% 100%;
 }
 
 .our_partners {
@@ -435,7 +438,7 @@ footer .logo {
 
 }
 
-.partner_slider_content{
+.partner_slider_content {
     width: 75% !important;
 }
 
@@ -579,6 +582,22 @@ rt {
     border: 5px solid white;
     color: white !important;
 }
+
+.contactUs_box {
+    width: 90%;
+    height: 100%;
+    background: #edc905;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.contactUs_box > .box_text{
+    margin-left: 50px;
+}
+
 
 
 

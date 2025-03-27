@@ -5,7 +5,7 @@
     <div id="partnerSlider" class="swiper mainSlider" style="position:relative;">
         <div class="swiper-wrapper">
             @foreach($brandList as $brand)
-            <div class="swiper-slide" style="background: linear-gradient(110deg, {{$brand->second_color}} 60%, {{$brand->main_color}} 50%);">
+            <div class="swiper-slide" style="background: linear-gradient(var(--bg-angle), {{$brand->second_color}} 60%, {{$brand->main_color}} 50%);">
 
                 <div class="swiper-slide-container">
                     <div class="slider-box"

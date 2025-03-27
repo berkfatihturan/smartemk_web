@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+
+    :root {
+        --bg-angle: 360deg;
+    }
+
+    body {
+        font-family: "Avenir Black","Poppins", serif !important;
+    }
+
+
+    .header-slider{
+        width: 100%;
+        padding: 10px 15px;
+        background-color: #22092c;
+    }
+
+    .header-slider h1{
+        text-align: right;
+        font-size: 26px;
+    }
+
+    .header-slider h3{
+        width: 100%;
+        text-align: right;
+        font-size: 18px;
+    }
+
+    .navbar .container-fluid{
+        justify-content: flex-end
+    }
+
+    .navbar .nav-item,
+    .navbar .dropdown-menu{
+        text-align: end;
+    }
+
+    .contactUs_box{
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0px;
+        padding-bottom: 30px;
+    }
+
+    .contactUs_box > .box_text{
+        margin-bottom: 30px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .contactUs_box > .box_text p{
+        text-align: center;
+
+    }
+
+    .btn-contact_us{
+        margin-right: 0;
+    }
+
+    .swiper-slide-container{
+        width: 90%;
+        height: 90%;
+    }
+
+    .slider-box{
+        padding: 30px 0 40px 30px;
+    }
+
+    .slider-bottom{
+        bottom: 55px;
+    }
+
+    .partner-list{
+        margin-left: max(50px, 10%);
+    }
+
+    .partner_slider_content {
+        width: 95% !important;
+    }
+
+    .partner_slider_content p{
+        font-size: 12px !important;
+    }
+
+    .partner_slider_content h3{
+        font-size: 24px;
+    }
+
+
+
+    .pre-header ul.info li:last-child{
+        display: inline-block;
+    }
+
+    .pre-header{
+        height: auto;
+    }
+
+    .social-media{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info li{
+        margin-right: 0 !important;
+        margin-top: 10px;
+    }
+
+    .footer_info{
+        justify-content: center
+    }
+
+}

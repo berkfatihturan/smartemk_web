@@ -2,13 +2,13 @@
     <div class="pre-header" style="background: rgba(0, 0, 0, 1) url({{asset('assets')}}/images/footer-bg-v2.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-sm-8 col-7"style="display: flex; align-items: center;">
+                <div class="footer_info col-lg-8 col-sm-12 col-12"style="display: flex; align-items: center;">
                     <ul class="info">
                         <li><a href="#"><i class="fa fa-envelope"></i>{{$settingDataFromLayout->email}}</a></li>
                         <li><a href="#"><i class="fa fa-phone"></i>{{$settingDataFromLayout->phone}}</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-sm-4 col-5">
+                <div class="col-lg-4 col-sm-12 col-12">
                     <ul class="social-media">
                         <li><a href="{{$settingDataFromLayout->facebook_url}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="{{$settingDataFromLayout->twitter_url}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -81,6 +81,28 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+            // Mobil (≤ 480px)
+            0: {
+                slidesPerView: 2,
+            },
+            // Küçük tabletler (≥ 481px)
+            481: {
+                slidesPerView: 3,
+            },
+            // Tablet (≥ 768px)
+            768: {
+                slidesPerView: 4,
+            },
+            // Masaüstü (≥ 1024px)
+            1024: {
+                slidesPerView: 6,
+            },
+            // Büyük ekran (≥ 1200px)
+            1200: {
+                slidesPerView: 7,
+            }
+        }
 
 
     });
