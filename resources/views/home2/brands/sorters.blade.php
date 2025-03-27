@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-12 col-lg-4" style=" display: flex;align-items: center;justify-content: center;">
                         <img alt="Image of PM500VE motor driven roller with external controller"
-                             class="w-full md:w-2/3 lg:w-full"
+                             class="product_img w-full md:w-2/3 lg:w-full"
                              src="{{asset('assets')}}/img/mabs-frat.png"/>
                     </div>
                 </div>
