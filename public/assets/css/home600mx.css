@@ -135,4 +135,18 @@
         margin-bottom: 20px;
     }
 
+    .fill-form{
+        padding: 0!important;
+    }
+
+    #map iframe{
+        margin-top: 40px;
+        border-radius: 23px;
+    }
+
+    .contact-container{
+        flex-direction: column-reverse
+
+    }
+
 }
