@@ -82,13 +82,6 @@
                 </div>
                 <p style="margin-top: 7px;">Tofaş</p>
             </div>
-            <div class="swiper-slide_v3 col-3">
-                <div class="slider_v3-box"
-                     style="background-image: url('{{asset('assets')}}/img/logo/altınay.jpg');">
-
-                </div>
-                <p style="margin-top: 7px;">Altınay</p>
-            </div>
 
             <div class="swiper-slide_v3 col-3">
                 <div class="slider_v3-box"
@@ -162,12 +155,7 @@
                 <p style="margin-top: 7px;">Trendyol</p>
             </div>
 
-            <div class="swiper-slide_v3 col-3">
-                <div class="slider_v3-box"
-                     style="background-image:url('{{asset('assets')}}/img/logo/atakey.jpeg');">
-                </div>
-                <p style="margin-top: 7px;">Atakey</p>
-            </div>
+
 
             <div class="swiper-slide_v3 col-3">
                 <div class="slider_v3-box"
